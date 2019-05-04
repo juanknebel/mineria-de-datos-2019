@@ -1,3 +1,9 @@
+# Apple directory
+.DS_Store
+
+# R project
+*.Rproj
+
 # History files
 .Rhistory
 .Rapp.history
