@@ -7,7 +7,7 @@ library(tidyr)
 library(reshape2)
 library(stringr)
 
-register_google(key = "AIzaSyDNEh_BUnqoTTsABfuSB_BftOm5fvlHpuw")
+register_google(key = "XXXX")
 
 sucursales_mongo <- mongo(collection = "sucursales", db = "precios_caba")
 sucursales <- sucursales_mongo$find()
